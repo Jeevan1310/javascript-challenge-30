@@ -1,7 +1,7 @@
 
 function displayMenu() {
-    console.log("Please select an operation:\n1. Addition (+)\n2. Subtraction (-)\n3. Multiplication (*)\n4. Quit");
-    return prompt("Enter your choice (1-4):");
+    console.log("Please select an operation:\n1. Addition (+)\n2. Subtraction (-)\n3. Multiplication (*)\n4. Division (/)\n5. Quit");
+    return prompt("Enter your choice (1-5):");
   }
   
 
@@ -24,6 +24,12 @@ function displayMenu() {
     let multiplication = Number(num1) * Number(num2);
     console.log("The product between " + num1 + " and " + num2 + " is " + multiplication)
   }
+  function divideNumbers() {
+    let num1 = prompt("Enter the first Number: ");
+    let num2 = prompt("Enter the Second Number: ");
+    let divison = Number(num1) * Number(num2);
+    console.log("The divison between " + num1 + " and " + num2 + " is " + divison)
+  }
   
 
   let choice;
@@ -40,6 +46,9 @@ function displayMenu() {
         multiplyNumbers();
         break;
       case "4":
+        divideNumbers();
+        break;
+      case "5":
         console.log("Exiting program...");
         break;
       default:
