@@ -1,7 +1,7 @@
 
 function displayMenu() {
-    console.log("Please select an operation:\n1. Addition (+)\n2. Subtraction (-)\n3. Quit");
-    return prompt("Enter your choice (1-3):");
+    console.log("Please select an operation:\n1. Addition (+)\n2. Subtraction (-)\n3. Multiplication (*)\n4. Quit");
+    return prompt("Enter your choice (1-4):");
   }
   
 
@@ -37,11 +37,14 @@ function displayMenu() {
         subtractNumbers();
         break;
       case "3":
+        multiplyNumbers();
+        break;
+      case "4":
         console.log("Exiting program...");
         break;
       default:
         console.log("Invalid choice. Please try again.");
         break;
     }
-  } while (choice !== "3");
+  } while (choice !== "4");
   
