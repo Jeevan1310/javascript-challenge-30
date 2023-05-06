@@ -18,6 +18,12 @@ function displayMenu() {
     let difference = Number(num1) - Number(num2);
     console.log("The difference between " + num1 + " and " + num2 + " is " + difference);
   }
+  function multiplyNumbers() {
+    let num1 = prompt("Enter the first Number: ");
+    let num2 = prompt("Enter the Second Number: ");
+    let multiplication = Number(num1) * Number(num2);
+    console.log("The product between " + num1 + " and " + num2 + " is " + multiplication)
+  }
   
 
   let choice;
