@@ -15,3 +15,8 @@ https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-1/first.js
 ## Day-2
 
 ### What I had Done
+I have created a sample calculator using the javascript functions and created for functions add,sub,divide,multiply for two numbers from the users input
+### Output
+A simple calculator
+### Link to the code file 
+https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-2/second.js
