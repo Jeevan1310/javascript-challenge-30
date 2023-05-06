@@ -11,3 +11,7 @@ Created a sample program to display a short World Hello World
 "Hello World"
 ### Link to the code file 
 https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-1/first.js
+
+## Day-2
+
+### What I had Done
