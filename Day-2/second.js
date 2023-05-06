@@ -1,9 +1,22 @@
-// Accept input from the user
-let number1 = prompt("Enter the first number:");
-let number2 = prompt("Enter the second number:");
+const readline = require('readline');
 
-// Convert the input to numbers and add them
-let sum = Number(number1) + Number(number2);
+// Create a readline interface
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
 
-// Display the result
-alert("The sum of the two numbers is: " + sum);
+// Prompt the user for input
+rl.question('Enter the first number: ', (number1) => {
+  rl.question('Enter the second number: ', (number2) => {
+
+    // Convert the input to numbers and add them
+    let sum = Number(number1) + Number(number2);
+
+    // Display the result
+    console.log("The sum of the two numbers is: " + sum);
+
+    // Close the readline interface
+    rl.close();
+  });
+});
