@@ -11,7 +11,7 @@ const quotes = [
   function generateQuote() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     const quote = quotes[randomIndex];
-    document.getElementById("quote").innerHTML = quote;
+    document.getElementById("Quote").innerHTML = quote;
   }
   
   generateQuote();
