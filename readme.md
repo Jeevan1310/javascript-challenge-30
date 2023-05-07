@@ -22,3 +22,8 @@ A simple calculator
 https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-2/second.js\
 
 ## Day-3
+
+### What I had Done
+I have created a website for creating random quotes by clicking a website button for that i have used sample html file and css so that users can connect it with
+### Output
+Random quote Generator
