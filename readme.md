@@ -27,3 +27,5 @@ https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-2/second.j
 I have created a website for creating random quotes by clicking a website button for that i have used sample html file and css so that users can connect it with
 ### Output
 Random quote Generator
+### Link to the code file 
+https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-3/third.js
