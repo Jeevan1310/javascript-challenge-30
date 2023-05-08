@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 400px;
+  }
+  
+  li {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    position: relative;
+  }
+  
+  li::before {
+    content: "\f00d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: #cc0000;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  li:hover::before {
+    opacity: 1;
+  }
+  
+  li.complete {
+    text-decoration: line-through;
+    color: #666;
+  }
+  
+  li.complete::before {
+    content: "\f00c";
+    color: #009933;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    input[type="text"] {
+      width: 200px;
+    }
+  
+    ul {
+      width: 300px;
+    }
+  }
+  
