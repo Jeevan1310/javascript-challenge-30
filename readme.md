@@ -32,3 +32,5 @@ https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-3/third.js
 
 ## Day-4
 
+### What I had Done
+I have created a sample website for creating and managing a todo list in this website it has both option to create a todo item also to delete it
