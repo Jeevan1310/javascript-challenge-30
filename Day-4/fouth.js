@@ -15,3 +15,12 @@ form.addEventListener('submit', function(event) {
     todoInput.value = '';
   }
 });
+todoListElement.addEventListener('click', function(event) {
+    const clickedListItem = event.target;
+    const clickedListItemIndex = Array.from(todoListElement.children).indexOf(clickedListItem);
+    if (clickedListItemIndex >= 0) {
+      todoList.splice(clickedListItemIndex, 1);
+      todoListElement.removeChild(clickedListItem);
+    }
+  });
+  
