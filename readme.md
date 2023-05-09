@@ -40,3 +40,7 @@ A simple Todo List Creater
 https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-4/fourth.js
 
 ## Day-5
+
+### What I had Done
+I had created a simple countdown time which take input in seconds and convert into minutes and displays well in the website. it is very is that we can use it in every sports related activities
+### Output
