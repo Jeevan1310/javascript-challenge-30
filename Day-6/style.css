@@ -24,3 +24,16 @@ body {
     margin-top: 20px;
   }
   
+  #user-choice,
+  #computer-choice {
+    font-weight: bold;
+  }
+  
+  .choice-label {
+    font-weight: bold;
+  }
+  
+  .choice-value {
+    font-style: italic;
+  }
+  
