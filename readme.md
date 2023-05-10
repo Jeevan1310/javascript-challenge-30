@@ -52,5 +52,7 @@ https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-5/fifth.js
 
 ### What I had Done
 I had created a simple program to play rock paper scissors it basically a simple game that we need to choose the option and automatically the computer find it and display its results with computers option
+### Output
+A simple game : rock paper scissor 
 
 
