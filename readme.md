@@ -48,3 +48,5 @@ A simple countdown timer
 ### Link to the code file 
 https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-5/fifth.js
 
+## Day-6
+
