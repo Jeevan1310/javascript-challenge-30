@@ -1,5 +1,7 @@
 function playGame(userChoice) {
     var computerChoice = getComputerChoice();
+    document.getElementById("user-choice").innerHTML = userChoice;
+    document.getElementById("computer-choice").innerHTML = computerChoice;
     var result = determineWinner(userChoice, computerChoice);
     document.getElementById("result").innerHTML = result;
 }
