@@ -14,4 +14,26 @@ function getWeather() {
         console.log('Error:', error);
       });
   }
+function displayWeather(data) {
+    const weatherContainer = document.getElementById('weatherContainer');
+  
+    // Clear previous weather information
+    weatherContainer.innerHTML = '';
+  
+    // Create elements to display the weather
+    const locationName = document.createElement('h2');
+    locationName.textContent = data.name;
+  
+    const temperature = document.createElement('p');
+    temperature.textContent = `Temperature: ${data.main.temp}°C`;
+  
+    const weatherDescription = document.createElement('p');
+    weatherDescription.textContent = `Weather: ${data.weather[0].description}`;
+  
+    // Append elements to the container
+    weatherContainer.appendChild(locationName);
+    weatherContainer.appendChild(temperature);
+    weatherContainer.appendChild(weatherDescription);
+}
+  
   
