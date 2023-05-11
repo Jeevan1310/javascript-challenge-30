@@ -1,5 +1,5 @@
 function getWeather() {
-    const locationInput = document.getElementById('locationInput');
+    const locationInput = document.getElementById ('locationInput');
     const location = locationInput.value;
     const apiKey = '69a2b16fea7b38fcceaff626dd19cb5f'; 
   
