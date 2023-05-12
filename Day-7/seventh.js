@@ -1,9 +1,11 @@
 function getWeather() {
-    const locationInput = document.getElementById ('locationInput');
-    const location = locationInput.value;
-    const apiKey = '69a2b16fea7b38fcceaff626dd19cb5f'; 
+    const latitudeInput = document.getElementById('latitudeInput');
+    const longitudeInput = document.getElementById('longitudeInput');
+    const latitude = latitudeInput.value;
+    const longitude = longitudeInput.value;
+    const apiKey = '69a2b16fea7b38fcceaff626dd19cb5f'; // Replace with your OpenWeatherMap API key
   
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`;
+    const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
   
     fetch(url)
       .then(response => response.json())
@@ -14,6 +16,7 @@ function getWeather() {
         console.log('Error:', error);
       });
   }
+  
 function displayWeather(data) {
     const weatherContainer = document.getElementById('weatherContainer');
   
@@ -35,5 +38,6 @@ function displayWeather(data) {
     weatherContainer.appendChild(temperature);
     weatherContainer.appendChild(weatherDescription);
 }
+  
   
   
