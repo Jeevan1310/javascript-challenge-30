@@ -3,7 +3,7 @@ function getWeather() {
     const longitudeInput = document.getElementById('longitudeInput');
     const latitude = latitudeInput.value;
     const longitude = longitudeInput.value;
-    const apiKey = '69a2b16fea7b38fcceaff626dd19cb5f'; // Replace with your OpenWeatherMap API key
+    const apiKey = 'API_KEY'; // Replace with your OpenWeatherMap API key
   
     const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
   
