@@ -57,3 +57,8 @@ A simple game : rock paper scissor
 ### Link to the code file 
 https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-6/sixth.js
 
+## Day-6
+
+### What I had Done
+I had created a sample website to display the currrent weather and temeperature to get the 
+
