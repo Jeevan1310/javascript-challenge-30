@@ -72,5 +72,7 @@ https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-7/seventh.
 I had created a sample website for quiz competition there are three questions available and one who answers correctly three get highs scores
 ### Output
 A simple Quiz website
+### Link to the code file 
+https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-8/eighth.js 
 
 
