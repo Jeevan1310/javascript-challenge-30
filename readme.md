@@ -57,7 +57,7 @@ A simple game : rock paper scissor
 ### Link to the code file 
 https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-6/sixth.js
 
-## Day-6
+## Day-7
 
 ### What I had Done
 I had created a sample website to display the currrent weather and temeperature to get the weather you need to insert the lattitude and longitude of your location also i have used openweather api for this project
@@ -65,5 +65,10 @@ I had created a sample website to display the currrent weather and temeperature 
 A sample weather website
 ### Link to the code file 
 https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-7/seventh.js
+
+## Day-8
+
+### What I had Done
+I had created
 
 
