@@ -28,7 +28,7 @@ body {
     margin-top: 20px;
     color: #333;
   }
-  footer {
+footer {
     background-color: #f2f2f2;
     padding: 10px 0;
     position: fixed;
@@ -36,6 +36,6 @@ body {
     width: 100%;
     text-align: center;
     font-size: 14px;
-  }
+}
 
   
