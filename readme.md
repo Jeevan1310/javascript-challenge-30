@@ -64,11 +64,12 @@ I had created a sample website to display the currrent weather and temeperature 
 ### Output
 A sample weather website
 ### Link to the code file 
-https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-7/seventh.js
+https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-7/seventh.js 
 
 ## Day-8
 
 ### What I had Done
-I had created
+I had created a sample website for quiz competition there are three questions available and one who answers correctly three get highs scores
+### Output
 
 
