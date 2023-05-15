@@ -1,6 +1,6 @@
 if (/Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor)) {
     // Code to run if the browser is Google Chrome
-    console.log("You are using Google Chrome!");
+    console.log("You are using Google Chrome! 123");
   } else {
     // Code to run if the browser is not Google Chrome
     console.log("You are not using Google Chrome.");
