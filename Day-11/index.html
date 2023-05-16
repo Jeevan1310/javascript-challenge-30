@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sample Form Validation</title>
+  <link rel="stylesheet" href]="style.css">
+</head>
+<body>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <div id="name-error" class="error"></div>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <div id="email-error" class="error"></div>
+
+    <input type="submit" value="Submit" onclick="return validateForm()">
+  </form>
+  <script src="11.js"></script>
+</body>
+</html>
