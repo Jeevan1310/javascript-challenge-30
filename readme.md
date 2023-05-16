@@ -84,4 +84,14 @@ A sample stopwatch
 ### Link to the code file
 https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-9/ninth.js 
 
+## Day-10
+
+### What I had Done
+I had created a sample navbar which responsive and also in this task i hd added a small javascript code to check if a option is clicked
+### Output
+A sample Nav Bar
+### Link to the code file
+https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-10/tenth.js 
+
+
 
