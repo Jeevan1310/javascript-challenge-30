@@ -96,7 +96,7 @@ https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-10/tenth.j
 ## Day-11
 
 ### What I had Done
-I had created a sample form which have form validations as javascript its a simple one for the user forms
+I had created a sample form which have form validations as javascript its a simple one for the user forms for data collection
 ### Output
 A sample form
 ### Link to the code file
