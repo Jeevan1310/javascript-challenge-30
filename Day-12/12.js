@@ -25,17 +25,16 @@ document.addEventListener('DOMContentLoaded', function() {
       showSlide(prevIndex);
     }
   
-    // Optional: Auto-play the slider
+
     const autoplayInterval = setInterval(nextSlide, 3000);
   
-    // Usage example:
-    // Show the next slide when clicking a "Next" button
+
     document.getElementById('nextBtn').addEventListener('click', nextSlide);
   
-    // Show the previous slide when clicking a "Previous" button
+    
     document.getElementById('prevBtn').addEventListener('click', prevSlide);
   
-    // Show the initial slide
+  
     showSlide(currentSlide);
   });
   
