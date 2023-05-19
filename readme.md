@@ -10,7 +10,7 @@ Created a sample program to display a short World Hello World
 ### Output
 "Hello World"
 ### Link to the code file 
-https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-1/first.js
+https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-01/first.js
 
 ## Day-2
 
@@ -19,7 +19,7 @@ I have created a sample calculator using the javascript functions and created fo
 ### Output
 A simple calculator
 ### Link to the code file 
-https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-2/second.js\
+https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-02/second.js\
 
 ## Day-3
 
@@ -28,7 +28,7 @@ I have created a website for creating random quotes by clicking a website button
 ### Output
 Random quote Generator
 ### Link to the code file 
-https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-3/third.js
+https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-03/third.js
 
 ## Day-4
 
@@ -37,7 +37,7 @@ I have created a sample website for creating and managing a todo list in this we
 ### Output
 A simple Todo List Creater
 ### Link to the code file 
-https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-4/fourth.js
+https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-04/fourth.js
 
 ## Day-5
 
@@ -46,7 +46,7 @@ I had created a simple countdown time which take input in seconds and convert in
 ### Output
 A simple countdown timer
 ### Link to the code file 
-https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-5/fifth.js
+https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-05/fifth.js
 
 ## Day-6
 
@@ -55,7 +55,7 @@ I had created a simple program to play rock paper scissors it basically a simple
 ### Output
 A simple game : rock paper scissor 
 ### Link to the code file 
-https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-6/sixth.js
+https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-06/sixth.js
 
 ## Day-7
 
@@ -64,7 +64,7 @@ I had created a sample website to display the currrent weather and temeperature 
 ### Output
 A sample weather website
 ### Link to the code file 
-https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-7/seventh.js 
+https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-07/seventh.js 
 
 ## Day-8
 
@@ -73,7 +73,7 @@ I had created a sample website for quiz competition there are three questions av
 ### Output
 A simple Quiz website
 ### Link to the code file 
-https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-8/eighth.js 
+https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-08/eighth.js 
 
 ## Day-9
 
@@ -82,7 +82,7 @@ I had created a sample website for stopwatch which has option of both start and 
 ### Output
 A sample stopwatch
 ### Link to the code file
-https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-9/ninth.js 
+https://github.com/Jeevan1310/javascript-challenge-30/blob/master/Day-09/ninth.js 
 
 ## Day-10
 
