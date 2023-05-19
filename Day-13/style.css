@@ -1,43 +1,67 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    background-color: #f2f2f2;
   }
   
   .container {
-    width: 300px;
-    padding: 20px;
-    border: 1px solid #ccc;
+    max-width: 400px;
+    background-color: #fff;
     border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
   h1 {
     text-align: center;
+    margin-top: 0;
+  }
+  
+  form {
+    margin-bottom: 20px;
   }
   
   label {
     display: block;
-    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
   }
   
   input[type="number"] {
-    width: 50px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
   }
   
-  input[type="checkbox"] {
-    margin-top: 5px;
+  .checkbox-group {
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-group label {
+    display: inline-block;
+    margin-right: 10px;
   }
   
   button {
-    margin-top: 10px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
   }
   
   #password {
-    margin-top: 10px;
     width: 100%;
-    padding: 5px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
   }
   
