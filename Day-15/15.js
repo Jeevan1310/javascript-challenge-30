@@ -2,12 +2,12 @@
 const tracks = [
     {
       title: "Track 1",
-      image: "track1.jpg",
+      image: "Day-12/dummy-1.jpg",
       audio: "track1.mp3"
     },
     {
       title: "Track 2",
-      image: "track2.jpg",
+      image: "Day-12/dummy-2.jpg",
       audio: "track2.mp3"
     },
   ];
