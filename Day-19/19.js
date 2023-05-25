@@ -31,6 +31,12 @@ window.addEventListener('DOMContentLoaded', function() {
           result.textContent = 'Your typing speed: ' + wordsPerMinute + ' WPM';
           startBtn.disabled = false;
           input.disabled = true;
+  
+          // Reset the input and result after a delay
+          setTimeout(function() {
+            input.value = '';
+            result.textContent = '';
+          }, 3000);
         }
       });
     });
