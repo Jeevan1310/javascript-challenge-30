@@ -28,7 +28,7 @@ window.addEventListener('DOMContentLoaded', function() {
           var minutes = (endTime - startTime) / 1000 / 60;
           var wordsPerMinute = Math.round(words.length / minutes);
   
-          result.innerText = 'Your typing speed: ' + wordsPerMinute + ' WPM';
+          result.textContent = 'Your typing speed: ' + wordsPerMinute + ' WPM';
           startBtn.disabled = false;
           input.disabled = true;
         }
