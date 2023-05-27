@@ -8,6 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
     canvas.addEventListener('mouseup', stopDrawing);
     canvas.addEventListener('mouseout', stopDrawing);
 
+    const resetBtn = document.getElementById('resetBtn');
+    resetBtn.addEventListener('click', resetCanvas);
+
+    const saveBtn = document.getElementById('saveBtn');
+    saveBtn.addEventListener('click', saveCanvas);
+
     function startDrawing(e) {
         isDrawing = true;
         draw(e);
@@ -27,5 +33,17 @@ document.addEventListener('DOMContentLoaded', () => {
     function stopDrawing() {
         isDrawing = false;
         context.beginPath();
+    }
+
+    function resetCanvas() {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+    }
+
+    function saveCanvas() {
+        const image = canvas.toDataURL();
+        const link = document.createElement('a');
+        link.href = image;
+        link.download = 'drawing.png';
+        link.click();
     }
 });
