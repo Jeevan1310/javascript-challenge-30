@@ -17,3 +17,7 @@ function findMinMaxNumbers() {
     var resultElement = document.getElementById('result');
     resultElement.innerHTML = 'Smallest Number: ' + minNumber + '<br> Largest Number: ' + maxNumber;
 }
+
+window.onload = function() {
+    findMinMaxNumbers();
+};
