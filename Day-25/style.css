@@ -1,0 +1,22 @@
+#chat {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #messages {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  #messageInput {
+    width: 80%;
+    padding: 10px;
+  }
+  
+  #sendButton {
+    padding: 10px;
+  }
+  
