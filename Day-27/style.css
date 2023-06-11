@@ -1,0 +1,15 @@
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  #slide-image {
+    width: 100%;
+    height: auto;
+  }
+  
