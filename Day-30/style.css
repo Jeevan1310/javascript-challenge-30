@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .input-field {
+    margin-bottom: 10px;
+  }
+  .result {
+    font-weight: bold;
+    margin-top: 10px;
+  }
