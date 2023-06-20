@@ -5,6 +5,13 @@ const challenges = [
       githubLink: "https://github.com/your-username/day1-hello-world",
       liveDemoLink: "https://your-website.com/day1"
     },
+    {
+        title: "Day 2: Hello, World!",
+        description: "Create a 'Hello, World!' program in JavaScript.",
+        githubLink: "https://github.com/your-username/day1-hello-world",
+        liveDemoLink: "https://your-website.com/day1"
+    },
+      // 
     // Add the rest of the challenge objects here...
   ];
   
