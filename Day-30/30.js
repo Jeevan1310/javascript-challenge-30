@@ -7,4 +7,5 @@ function calculateDistance() {
     var distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
     
     document.getElementById('result').innerHTML = 'Distance: ' + distance.toFixed(2);
+    document.getElementById('result').style.opacity = '1';
   }
